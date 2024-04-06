@@ -9,7 +9,7 @@ EditorBuildSettings:
     path: Assets/Scenes/SampleScene.unity
     guid: 99c9720ab356a0642a771bea13969a05
   - enabled: 0
-    path: Assets/Scenes/House.unity
+    path: Assets/Scenes/TavlaHouse.unity
     guid: 984fa3ad7a76a13489a40dfe67d61bf4
   - enabled: 0
     path: Assets/Scenes/SlicingTesting_OLD.unity
