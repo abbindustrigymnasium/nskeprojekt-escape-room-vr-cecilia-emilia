@@ -466,7 +466,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 128
   time: 15
-  cutForce: 1000
+  cutForce: 500
 --- !u!1 &7310505097548938058
 GameObject:
   m_ObjectHideFlags: 0
