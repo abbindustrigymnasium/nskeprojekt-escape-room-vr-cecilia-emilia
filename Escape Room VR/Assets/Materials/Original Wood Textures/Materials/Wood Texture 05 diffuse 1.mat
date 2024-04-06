@@ -7,7 +7,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Wood Texture 05 diffuse
+  m_Name: Wood Texture 05 diffuse 1
   m_Shader: {fileID: 4800000, guid: 933532a4fcc9baf4fa0491de14d08ed7, type: 3}
   m_Parent: {fileID: 2100000, guid: 46d5c14e7b4fa064996b209e0b922638, type: 2}
   m_ModifiedSerializedProperties: 0
@@ -38,7 +38,9 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats: []
-    m_Colors: []
+    m_Colors:
+    - _BaseColor: {r: 0.764151, g: 0.71729267, b: 0.71729267, a: 1}
+    - _Color: {r: 0.764151, g: 0.71729267, b: 0.71729267, a: 1}
   m_BuildTextureStacks: []
 --- !u!114 &7869864020079456473
 MonoBehaviour:
