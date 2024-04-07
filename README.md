@@ -46,9 +46,13 @@ Efter att headsetet är inkopplat behöver vi bygga de scener vi vill ha och sed
    - Script Debugging: false
    - Compression Method: LZ4
 
-5. Välj Build, namnge filen och välj var du vill spara den. Den kommer ha filändelsen ".apk".
-6. När Unity har byggt färdigt så går du in i File Explorer på datorn, dra din .apk fil till "This PC/Quest 2/Download". Ändra såklart "Quest 2" till "Quest 3" beroende på headset.
-7. När .apk filen befinner sig i headsetet så går du tillbaka till Unity Build Settings. Se till att headsetet är valt och sedan klickar du på Patch And Run. Unity kommer ladda och sedan bör spelet köras på ditt headset!
+5. Se till att scenerna som är med i builden är följande i samma ordning:
+   -  Scenes/Menu
+   -  Scenes/**Färdiga scenens namn**
+   -  Scenes/Finish
+7. Välj Build, namnge filen och välj var du vill spara den. Den kommer ha filändelsen ".apk".
+8. När Unity har byggt färdigt så går du in i File Explorer på datorn, dra din .apk fil till "This PC/Quest 2/Download". Ändra såklart "Quest 2" till "Quest 3" beroende på headset.
+9. När .apk filen befinner sig i headsetet så går du tillbaka till Unity Build Settings. Se till att headsetet är valt och sedan klickar du på Patch And Run. Unity kommer ladda och sedan bör spelet köras på ditt headset!
 När Unity har laddat färdigt och spelet körs på headsetet går det bra att koppla ur det ur datorn.
 
 
