@@ -41,7 +41,8 @@ public class Menu : MonoBehaviour
     }
 
     public void OnPlayClick() {
-        SceneManager.LoadScene(1);
+        // Ladda scenen med index 1 högre än nuvarande
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
         Debug.Log("Funktionen körs!");
     }
 }
