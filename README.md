@@ -57,11 +57,21 @@ Tidsbegränsningen, spel tar lång tid att utveckla och därför skulle det anta
 - Det tar lång tid att testa nya funktioner pga tiden det tar att bygga och sedan köra "patch and run". Om man vill slippa detta kan man köra direkt i Unity men det är extremt långsamt och laggigt.
 - Att skapa och importera 3D-modellerade filer är tidskrävande då man måste modellera de, justera skalan på objekten när de väl är i Unity och sedan eventuellt fixa alla problem som uppstår med material och texturer.
 - Komma på smartaste lösningen på problem eller funktioner. Vilket sätt kan man gå tillväga som ger det mest effektiva resultatet?
+- Det är tidskrävande att få fram ett "open world" spel, ett spel där det inte går att förutspå vad spelaren kommer att göra, men man vill ändå att det ska hända saker när slumpmäsiga händelser sker.
 
 I början hade vi svårigheter att bygga/köra spelet på en av våra datorer. Problemet löstes genom att byta editor, den förra saknade andriod tillägg på den datorn av någon anledning.
 
 
 ## Vad har varit kul?
-Det är roligt att utveckla spel då man får koda, 3d-modellera, designa en värld och sedan såklart spela spelet då det är färdigt.
+Det är roligt att utveckla spel då man får koda, 3d-modellera, designa en värld och sedan såklart spela spelet då det är färdigt. Det är sätt att få vara kreativ och sitta och klura på lösningar. 
+
+Att göra ett escape room är ett väldigt brett projekt och man kan implementera väldigt mycket, det gör att ifall man hittar någon detalj eller funktion som hade varit roligt att lära sig går det bra att stoppa in det i spelet, för det gör spelet bara roligare, som t.ex att hugga sönder saker. 
 
 
+## Ifall vi hade haft oändligt med tid (förbättringar)
+- Det går att fortsätta utveckla modeller och lägga till mer detaljer och bättre matrial.
+- Vi skulle ha skapat en berättelse, så att man vet varför man är inlåst i ett rum och vad man letar efter.
+- Ledtrådar.
+- Fler funktioner som gör det mer verkligt och svårare att spela.
+
+## Licens
