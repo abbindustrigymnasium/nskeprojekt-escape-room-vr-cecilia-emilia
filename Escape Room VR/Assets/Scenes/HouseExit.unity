@@ -2120,13 +2120,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 254480543}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.4, y: 0, z: 0}
+  m_LocalRotation: {x: -0.7071072, y: -0.70710653, z: -0.00000035762784, w: 0.00000038743013}
+  m_LocalPosition: {x: -0.522, y: -0.00000047683716, z: -0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 6935597310487094115}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: -180, y: 0, z: -90}
 --- !u!4 &270861128 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1686021177305034388, guid: ebee340de387f334f9ac44e044abd8fb,
@@ -20277,7 +20277,7 @@ GameObject:
   - component: {fileID: 7852597353569286856}
   - component: {fileID: 9170944631078001354}
   - component: {fileID: 9170944631078001353}
-  - component: {fileID: 9170944631078001355}
+  - component: {fileID: 9170944631078001357}
   m_Layer: 0
   m_Name: DoorHandle
   m_TagString: Untagged
@@ -21747,6 +21747,9 @@ MonoBehaviour:
       m_Calls: []
   m_HoverEntered:
     m_PersistentCalls:
+      m_Calls: []
+  m_HoverExited:
+    m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 520256916}
         m_TargetAssemblyTypeName: ExitDoor, Assembly-CSharp
@@ -21760,9 +21763,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-  m_HoverExited:
-    m_PersistentCalls:
-      m_Calls: []
   m_FirstSelectEntered:
     m_PersistentCalls:
       m_Calls: []
@@ -21912,8 +21912,8 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 126
   m_CollisionDetection: 0
---- !u!64 &9170944631078001355
-MeshCollider:
+--- !u!65 &9170944631078001357
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -21930,10 +21930,9 @@ MeshCollider:
   m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
-  serializedVersion: 5
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 8691780276856062721, guid: d18e9161d4713144c92512eb20b3be87, type: 3}
+  serializedVersion: 3
+  m_Size: {x: 0.47552848, y: 0.56, z: 0.84}
+  m_Center: {x: -0.0017728751, y: 0.04, z: 0.44}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0

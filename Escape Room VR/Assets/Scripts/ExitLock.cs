@@ -21,10 +21,15 @@ public class ExitLock : MonoBehaviour
             other.gameObject.GetComponent<Rigidbody>().useGravity = false;
             other.gameObject.GetComponent<Rigidbody>().isKinematic = false;
             other.gameObject.GetComponent<Collider>().enabled = false;
-            other.gameObject.transform.position = keyhole.position;
+            other.gameObject.transform.transform.SetPositionAndRotation(keyhole.position, keyhole.rotation);
             keyInserted = true;
-            doorHandle.gameObject.GetComponent<XRGrabInteractable>().enabled = true;
+
+            Invoke("EnableDoorHandle", 1f);
         }
     }
 
+    private void EnableDoorHandle()
+    {
+        doorHandle.gameObject.GetComponent<XRGrabInteractable>().enabled = true;
+    }
 }
