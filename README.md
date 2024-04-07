@@ -73,6 +73,9 @@ Att göra ett escape room är ett väldigt brett projekt och man kan implementer
 - Vi skulle ha skapat en berättelse, så att man vet varför man är inlåst i ett rum och vad man letar efter.
 - Ledtrådar.
 - Fler funktioner som gör det mer verkligt och svårare att spela.
+- Fler steg till att ta sig ut, att man måste hitta vissa verktyg för att komma åt nycklar osv.
+- En bättre scen för menyn och slutet.
+- Ljudeffekter för allt och eventuellt bakgrundsmusik/ljud
 
 ## Licens
 Projektet är licensierat under MIT-licens.???
