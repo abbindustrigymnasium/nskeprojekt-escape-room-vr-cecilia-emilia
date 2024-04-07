@@ -75,3 +75,4 @@ Att göra ett escape room är ett väldigt brett projekt och man kan implementer
 - Fler funktioner som gör det mer verkligt och svårare att spela.
 
 ## Licens
+Projektet är licensierat under MIT-licens.???
