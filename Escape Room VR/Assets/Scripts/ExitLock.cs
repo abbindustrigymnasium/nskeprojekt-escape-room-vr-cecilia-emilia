@@ -10,6 +10,14 @@ public class ExitLock : MonoBehaviour
     [SerializeField] private Transform keyhole;
     public bool keyInserted = false;
 
+    private AudioSource audioSource;
+    public AudioClip insertedKeyAudio;
+
+    private void Start()
+    {
+        audioSource = GetComponent<AudioSource>();
+    }
+
     private void OnTriggerEnter(Collider other)
     {
         Debug.Log(other.gameObject.name + " nuddade nyckelhålet");
@@ -24,6 +32,8 @@ public class ExitLock : MonoBehaviour
             other.gameObject.transform.transform.SetPositionAndRotation(keyhole.position, keyhole.rotation);
             keyInserted = true;
 
+            PlayAudioClip(insertedKeyAudio);
+
             Invoke("EnableDoorHandle", 0.5f);
         }
     }
@@ -32,5 +42,10 @@ public class ExitLock : MonoBehaviour
     {
         doorHandle.gameObject.GetComponent<XRGrabInteractable>().enabled = true;
         Debug.Log("Dörren är upplåst!");
+    }
+
+    public void PlayAudioClip(AudioClip audioClip)
+    {
+        audioSource.PlayOneShot(audioClip);
     }
 }

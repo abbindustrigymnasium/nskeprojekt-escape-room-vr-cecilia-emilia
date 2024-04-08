@@ -45,6 +45,7 @@ GameObject:
   - component: {fileID: 214538107713748212}
   - component: {fileID: 4004569170869584399}
   - component: {fileID: 5731667076031464847}
+  - component: {fileID: 3791989462214562548}
   m_Layer: 0
   m_Name: Cylinder
   m_TagString: Untagged
@@ -320,6 +321,33 @@ MonoBehaviour:
   m_StartingSingleGrabTransformers: []
   m_StartingMultipleGrabTransformers: []
   m_AddDefaultGrabTransformers: 1
+--- !u!114 &3791989462214562548
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4924744342679738551}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a085bc7137815c3429e893287c59cfee, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hapticOnActivated:
+    intensity: 0
+    duration: 0
+  hapticHoverEntered:
+    intensity: 0.1
+    duration: 0.1
+  hapticHoverExited:
+    intensity: 0
+    duration: 0
+  hapticSelectEntered:
+    intensity: 0.25
+    duration: 0.3
+  hapticSelectExited:
+    intensity: 0
+    duration: 0
 --- !u!1 &6346557516746441795
 GameObject:
   m_ObjectHideFlags: 0
