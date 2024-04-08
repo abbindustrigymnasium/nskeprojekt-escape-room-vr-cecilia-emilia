@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using EzySlice;
 using UnityEngine.InputSystem;
+using UnityEngine.XR.Interaction.Toolkit;
 
 public class SliceObject : MonoBehaviour
 {
@@ -11,11 +12,11 @@ public class SliceObject : MonoBehaviour
     public VelocityEstimator velocityEstimator;
     public LayerMask sliceableLayer;
 
-    [SerializeField] private float time = 15f;
-
+    [SerializeField] private float despawnTime = 15f;
 
     private Material crossSectionMaterial;
     public float cutForce = 250f;
+
 
     // Start is called before the first frame update
     void Start()
@@ -56,8 +57,8 @@ public class SliceObject : MonoBehaviour
             lowerHull.layer = target.layer;
 
             Destroy(target);
-            Destroy(upperHull, time);
-            Destroy(lowerHull, time);
+            Destroy(upperHull, despawnTime);
+            Destroy(lowerHull, despawnTime);
         }
     }
 
@@ -68,4 +69,5 @@ public class SliceObject : MonoBehaviour
         collider.convex = true;
         rb.AddExplosionForce(cutForce, slicedObject.transform.position, 1);
     }
+
 }

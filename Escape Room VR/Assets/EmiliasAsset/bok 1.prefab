@@ -95,6 +95,7 @@ GameObject:
   - component: {fileID: 6755125493061294686}
   - component: {fileID: 3149214312593675372}
   - component: {fileID: 8942741030704028570}
+  - component: {fileID: 2078328433885910808}
   m_Layer: 0
   m_Name: bok 1
   m_TagString: Untagged
@@ -321,6 +322,33 @@ MonoBehaviour:
   m_StartingSingleGrabTransformers: []
   m_StartingMultipleGrabTransformers: []
   m_AddDefaultGrabTransformers: 1
+--- !u!114 &2078328433885910808
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5031117991497839021}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a085bc7137815c3429e893287c59cfee, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hapticOnActivated:
+    intensity: 0
+    duration: 0
+  hapticHoverEntered:
+    intensity: 0.1
+    duration: 0.1
+  hapticHoverExited:
+    intensity: 0
+    duration: 0
+  hapticSelectEntered:
+    intensity: 0.25
+    duration: 0.3
+  hapticSelectExited:
+    intensity: 0
+    duration: 0
 --- !u!1 &5959436257495061830
 GameObject:
   m_ObjectHideFlags: 0
