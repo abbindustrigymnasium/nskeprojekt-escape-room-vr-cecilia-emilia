@@ -8,6 +8,7 @@ public class Menu : MonoBehaviour
 {
     public List<GameObject> canvasList;
     public int canvasCount;
+    public SceneTransitionManager sceneTransitionManager;
     public void Start()
     {
            canvasCount = 0;
@@ -42,7 +43,7 @@ public class Menu : MonoBehaviour
 
     public void OnPlayClick() {
         // Ladda scenen med index 1 högre än nuvarande
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+        sceneTransitionManager.GoToScene(SceneManager.GetActiveScene().buildIndex + 1);
         Debug.Log("Funktionen körs!");
     }
 }

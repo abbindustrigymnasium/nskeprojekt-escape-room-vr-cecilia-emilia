@@ -5,9 +5,10 @@ using UnityEngine.SceneManagement;
 
 public class Finish : MonoBehaviour
 {
+    public SceneTransitionManager sceneTransitionManager;
     public void GoBackToMenu()
     {
-        SceneManager.LoadScene(0);
+        sceneTransitionManager.GoToScene(0);
     }
 
     public void QuitApplication()

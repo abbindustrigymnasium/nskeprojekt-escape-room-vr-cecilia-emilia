@@ -24,12 +24,13 @@ public class ExitLock : MonoBehaviour
             other.gameObject.transform.transform.SetPositionAndRotation(keyhole.position, keyhole.rotation);
             keyInserted = true;
 
-            Invoke("EnableDoorHandle", 1f);
+            Invoke("EnableDoorHandle", 0.5f);
         }
     }
 
     private void EnableDoorHandle()
     {
         doorHandle.gameObject.GetComponent<XRGrabInteractable>().enabled = true;
+        Debug.Log("Dörren är upplåst!");
     }
 }
