@@ -1175,7 +1175,7 @@ PrefabInstance:
     - target: {fileID: 8634317094661461186, guid: eb9104ef66b7305468adb3697fdeed5e,
         type: 3}
       propertyPath: m_IgnoreSelectEvents
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8634317094661461186, guid: eb9104ef66b7305468adb3697fdeed5e,
         type: 3}
