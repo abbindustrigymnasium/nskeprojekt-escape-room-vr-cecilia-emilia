@@ -17,11 +17,14 @@ public class SliceObject : MonoBehaviour
     private Material crossSectionMaterial;
     public float cutForce = 250f;
 
+    public List<AudioClip> sliceSounds;
+    private AudioSource audioSource;
+
 
     // Start is called before the first frame update
     void Start()
     {
-        
+        audioSource = GetComponent<AudioSource>();
     }
 
     // Update is called once per frame
@@ -33,6 +36,7 @@ public class SliceObject : MonoBehaviour
         {
             GameObject target = hit.transform.gameObject;
             Slice(target);
+            PlaySliceSound();
         }
     }
 
@@ -70,4 +74,10 @@ public class SliceObject : MonoBehaviour
         rb.AddExplosionForce(cutForce, slicedObject.transform.position, 1);
     }
 
+    public void PlaySliceSound()
+    {
+        int soundIndex = Random.Range(0, sliceSounds.Count - 1);
+        if (audioSource != null) ;
+        audioSource.PlayOneShot(sliceSounds[soundIndex]);
+    }
 }
