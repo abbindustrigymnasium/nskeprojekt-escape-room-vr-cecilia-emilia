@@ -10,7 +10,7 @@ Spelet görs i Unity, vilket använder C#, och är menat att köras på en meta 
 
 ## Hur kör jag själv projektet?
 1. Klona projektet till din egna dator.
-2. Öppna projektet i Unity med editor versionen 2022.3.19f.
+2. Öppna projektet i Unity med editor versionen 2022.3.19f (projektet ligger i mappen "Escape Room VR").
 3. I Unity, öppna scenen "Menu" i Assets/Scenes/Menu
 4. Koppla in en Meta Quest 2 eller Meta Quest 3 i datorn.
 
