@@ -41,6 +41,7 @@ public class ExitLock : MonoBehaviour
     private void EnableDoorHandle()
     {
         doorHandle.gameObject.GetComponent<XRGrabInteractable>().enabled = true;
+        doorHandle.gameObject.GetComponent<HapticInteractable>().enabled = true;
         Debug.Log("Dörren är upplåst!");
     }
 
