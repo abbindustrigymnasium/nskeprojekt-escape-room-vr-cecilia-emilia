@@ -25,7 +25,11 @@ Efter att headsetet är inkopplat, följ dessa steg:
 3. I programvaran, i menyn på sidan, Devices -> Add Headset
 4. Följ instruktionerna för ditt headset
 5. När headsetet är konfigurerat och uppkopplat via Quest Link så går du tillbaka till Unity Editor
-6. Klicka på Play
+6. Gå till File > Build Settings. Lägg till scener om det behövs. Scenerna bör vara som följande:
+   -  Scenes/Menu
+   -  Scenes/**Färdiga scenens namn**
+   -  Scenes/Finish
+8. Klicka på Play
 
 #### På headsetet
 Att köra spelet på headsetet ger generellt sätt högre prestanda då Quest 2 och Quest 3 är såkallade "standalone headsets".
